@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" type="text/css" href="divers/styles.css" />
-	<title>Madrassatoun</title>
+	<title>Madrassatoun </title>
 	<style type="text/css" >	
 		#board{
 			width:80%; 
