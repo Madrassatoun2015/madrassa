@@ -9,7 +9,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" type="text/css" href="divers/styles.css" />
+	<link rel="stylesheet" type="text/css" href="styles/commun.css" />
 	<title>Organisation des cours</title>
 </head>
 <body>
