@@ -35,20 +35,24 @@
 			<legend>Paramètres de connexion</legend>
 			<table align=center >
 				<tr>
+					<td>Site Web : </td>
+					<td><input type=text name=site_web class=input_text style="text-transform:none;" /></td>
+				</tr>
+				<tr>
 					<td>Serveur :</td>
-					<td><input type=text class=input_text style="text-transform:none;" /></td>
+					<td><input type=text name=name_serveur class=input_text style="text-transform:none;" /></td>
 				</tr>
 				<tr>
 					<td>Nom de la BDD :</td>
-					<td><input type=text class=input_text style="text-transform:none;" /></td>
+					<td><input type=text name=name_bdd class=input_text style="text-transform:none;" /></td>
 				</tr>
 				<tr>
 					<td>Identifiant :</td>
-					<td><input type=text class=input_text style="text-transform:none;" /></td>
+					<td><input type=text name=id_bdd class=input_text style="text-transform:none;" /></td>
 				</tr>
 				<tr>
 					<td>Mot de passe :</td>
-					<td><input type=password class=input_text style="text-transform:none;" /></td>
+					<td><input type=password name=mdp_bdd class=input_text style="text-transform:none;" /></td>
 				</tr>
 			</table>
 			<br/>
