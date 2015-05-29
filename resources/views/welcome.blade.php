@@ -1,100 +1,79 @@
 <html>
 	<head>
-		<title>Laravel</title>
+		<title>Madrassa 2015</title>
 		<link href="{{ asset('./css/bootstrap.min.css') }}" rel="stylesheet">
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				width: 100%;
-				height: 100%;
-				color: #B0BEC5;
-				display: table;
-				font-weight: 100;
-				font-family: 'Lato';
-			}
+<style type="text/css">
+    .bs-example{
+        margin: 20px;
+    }
+</style>
+	
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">Accueil</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">Middle</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">Quitter</button>
+  </div>
+</div>
 
-			.container {
-				text-align: center;
-				display: table-cell;
-				vertical-align: middle;
-			}
 
-			.content {
-				text-align: center;
-				display: inline-block;
-			}
+<!-- pills -->
 
-			.title {
-				font-size: 96px;
-				margin-bottom: 40px;
-			}
-
-			.quote {
-				font-size: 24px;
-			}
-		</style>
-
-	 <div class="navbar navbar-default" role="navigation">
-
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar">aa</span>
-            <span class="icon-bar">bb</span>
-            <span class="icon-bar">cc</span>
-          </button>
-          <a class="navbar-brand" href="www.google.fr">devprj*</a>
-      </div>
-     </div>	
-
+<div class="bs-example">
+    <ul class="nav nav-pills">
+        <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Profils <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Utilisateurs</a></li>
+                <li><a href="#">Employés</a></li>
+                <li><a href="#">Enseignants</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Planning <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Filières</a></li>
+                <li><a href="#">Cours</a></li>
+                <li><a href="#">Evènements</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Absences <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Enfants</a></li>
+                <li><a href="#">Adultes</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Notes</a></li>
+        <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Inscription <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Enfants</a></li>
+                <li><a href="#">Adultes</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Cotisations</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Impressions</a></li>
+        <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Règlages <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Etablissement</a></li>
+                <li><a href="#">Base de donnée</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
 	</head>
 	<body>
-<ol class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Library</a></li>
-  <li class="active">Data</li>
-</ol>
-		 <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <ul class="nav navbar-nav">  
-                 <nav class="navbar navbar-inverse">
-                        <li>XX</li>   
-                        <li>ZZ</li>   
-              
-                        <li>DD</li>
-             </nav>
-                </ul>  
-            </div>
-        </div>
-    </div>           
-<div class="navbar navbar-default" role="navigation">
-        <div class="collapse navbar-collapse" data-toggle="collapse">
 
-          <ul class="nav navbar-nav">
-              <li><a href="xx">Home</a></li>
-              <li><a href="cc">News</a></li>
-              <li><a href="dd">Projects</a></li>
-              <li><a href="dd">Forums</a></li>
-              <li><a href="ee">About</a></li>
-
-          </ul>
-         </div>
-     </div>
-		<div class="container">
-			<div class="content">
-				     <span class="label label-default">Default</span>
-<span class="label label-primary">Primary</span>
-<span class="label label-success">Success</span>
-<span class="label label-info">Info</span>
-<span class="label label-warning">Warning</span>
-<span class="label label-danger">Danger</span>
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
-			</div>
-		</div>
-	</body>
+</body>
 </html>
