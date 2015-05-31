@@ -10,6 +10,7 @@
     .bs-example{
         margin: 20px;
     }
+
 </style>
 	
 <div class="btn-group btn-group-justified" role="group" aria-label="...">
@@ -17,7 +18,7 @@
     <button type="button" class="btn btn-default">Accueil</button>
   </div>
   <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Middle</button>
+    <button type="button" class="btn btn-default">Aide</button>
   </div>
   <div class="btn-group" role="group">
     <button type="button" class="btn btn-default">Quitter</button>
@@ -32,42 +33,42 @@
         <li class="dropdown">
             <a href="#" data-toggle="dropdown" class="dropdown-toggle">Profils <b class="caret"></b></a>
             <ul class="dropdown-menu">
-                <li><a href="#">Utilisateurs</a></li>
-                <li><a href="#">Employés</a></li>
-                <li><a href="#">Enseignants</a></li>
+                <li><a href="profils-utilisateurs">Utilisateurs</a></li>
+                <li><a href="profils-employes">Employés</a></li>
+                <li><a href="profils-enseignants">Enseignants</a></li>
             </ul>
         </li>
         <li class="dropdown">
             <a href="#" data-toggle="dropdown" class="dropdown-toggle">Planning <b class="caret"></b></a>
             <ul class="dropdown-menu">
-                <li><a href="#">Filières</a></li>
-                <li><a href="#">Cours</a></li>
-                <li><a href="#">Evènements</a></li>
+                <li><a href="planning-filieres">Filières</a></li>
+                <li><a href="planning-cours">Cours</a></li>
+                <li><a href="planning-evenements">Evènements</a></li>
             </ul>
         </li>
         <li class="dropdown">
             <a href="#" data-toggle="dropdown" class="dropdown-toggle">Absences <b class="caret"></b></a>
             <ul class="dropdown-menu">
-                <li><a href="#">Enfants</a></li>
-                <li><a href="#">Adultes</a></li>
+                <li><a href="absences-enfants">Enfants</a></li>
+                <li><a href="absences-adultes">Adultes</a></li>
             </ul>
         </li>
-        <li><a href="#">Notes</a></li>
+        <li><a href="notes">Notes</a></li>
         <li class="dropdown">
             <a href="#" data-toggle="dropdown" class="dropdown-toggle">Inscription <b class="caret"></b></a>
             <ul class="dropdown-menu">
-                <li><a href="#">Enfants</a></li>
-                <li><a href="#">Adultes</a></li>
+                <li><a href="inscription-enfants">Enfants</a></li>
+                <li><a href="inscription-adultes">Adultes</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Cotisations</a></li>
+                <li><a href="inscription-cotisations">Cotisations</a></li>
             </ul>
         </li>
-        <li><a href="#">Impressions</a></li>
+        <li><a href="impressions">Impressions</a></li>
         <li class="dropdown">
             <a href="#" data-toggle="dropdown" class="dropdown-toggle">Règlages <b class="caret"></b></a>
             <ul class="dropdown-menu">
-                <li><a href="#">Etablissement</a></li>
-                <li><a href="#">Base de donnée</a></li>
+                <li><a href="reglages-etablissement">Etablissement</a></li>
+                <li><a href="reglages-bdd">Base de donnée</a></li>
             </ul>
         </li>
     </ul>
