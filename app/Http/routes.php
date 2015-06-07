@@ -45,7 +45,7 @@ Route::get('reglages-etablissement', 'ReglagesController@indexEtablissement');
 
 Route::get('reglages-bdd', 'ReglagesController@indexBdd');
 
-Route::get('creer/adulte', 'AdulteController@create');
+Route::get('creer-adulte', 'AdulteController@create');
 
 Route::post('store', array('as' => 'adulte.store' , 'uses' => 'AdulteController@store'));
 
