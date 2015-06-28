@@ -15,6 +15,8 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
+//Route::post('connect', array('as' => 'home.connect' , 'uses' => 'HomeController@connect'));
+
 Route::get('profils-utilisateurs', 'ProfilsController@indexUtilisateurs');
 
 Route::get('profils-employes', 'ProfilsController@indexEmployes');

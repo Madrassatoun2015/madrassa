@@ -12,7 +12,7 @@
 <p style="margin-top:50px;" ><img src="img/bismillahi.png" /></p>
 <p><img src="img/logo.png" /></p>
  </center>
- <form name=Form id=Form action="index.php/creer-adulte" method="POST" >
+ <form name=Form id=Form action="index.php/home" method="GET" >
 	<fieldset>
 		<legend>Identification : </legend>
 		<table align=center >

@@ -33,4 +33,18 @@ class HomeController extends Controller {
 		return view('home');
 	}
 
+		/**
+	 * Store a newly created resource in storage.
+	 *
+	 * @return Response
+	 */
+	public function connect(CreateAdulteRequest $request)
+	{
+		//Code vérification connection
+		
+		
+		
+		//Si ok on connecte :
+		return redirect()->route('home.index');
+	}
 }
